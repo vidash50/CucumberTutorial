@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "go to login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3957000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-29T00:59:24.651Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definition.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login as driver",
+        "description": "",
+        "id": "login;login-as-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 1485000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.step_definition.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on the login page",
+            "match": {
+              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3388000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User logs in as a driver",
+            "match": {
+              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_logs_in_as_a_driver()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User should be able to see Dashboard page title",
+            "match": {
+              "location": "com.cybertek.step_definition.LoginStepDefinitions.user_should_be_able_to_see_dashboard_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario_3"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user, I want to be able to login with username and password",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
