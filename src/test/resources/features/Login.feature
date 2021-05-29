@@ -35,3 +35,5 @@ Feature: Login
       |storemanager85 | UserUser123|
       |storemanager120 | UserUser123|
       |storemanager110 | UserUser123|
+
+    # all smoke
