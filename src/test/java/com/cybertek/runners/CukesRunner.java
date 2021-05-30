@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
         glue = "com/cybertek/step_definition",
         dryRun = false,
-        tags = "",
+        tags = "@Smoke",
         plugin = "json:target/cucumber1.json"
 )
 public class CukesRunner {

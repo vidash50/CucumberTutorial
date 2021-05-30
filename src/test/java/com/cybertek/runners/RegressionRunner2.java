@@ -1,6 +1,6 @@
 package com.cybertek.runners;
 
-/*
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         tags = " @Scenario_2",
         plugin = "json:target/cucumber2.json"
 )
-public class CukesRunner2 {
+public class RegressionRunner2 {
 }
 
- */
+
