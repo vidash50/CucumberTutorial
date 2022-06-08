@@ -6,5 +6,6 @@ import org.openqa.selenium.WebElement;
 public class DropdownsPage {
     
     public WebElement monthDropdown;
+    public webElement yearDropdown;
 
 }
